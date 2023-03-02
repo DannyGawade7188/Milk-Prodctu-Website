@@ -1,0 +1,50 @@
+<section>
+        <div class="w-80">
+            <div class="form-box">
+                <h1>Contact Us</h1>
+                <hr>
+                <form>
+                    <label for="fullname"><b>Your name :</b></label><br/>
+                    <input type="text" name="name" id="fullname" placeholder="Enter Fullname">
+                    <br/><br/>
+
+                    <label for="email"><b>Email :</b></label>
+                    <br/>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <br/><br/>
+
+                    <label for="message"><b>Your message :</b></label>
+                    <br/>
+                    <textarea id="message" placeholder="Enter Your Message"></textarea>
+                    <br/><br/>
+
+                    <button type="submit" id="contact-btn">Send Email</button>
+                </form>
+            </div>
+        </div>
+</section>
+
+section .form-box form {
+    margin-top: 20px;
+}
+
+section .form-box input:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+section .form-box input,
+textarea {
+    width: 50%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-family: Gotu;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
